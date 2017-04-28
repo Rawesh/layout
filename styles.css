@@ -1,11 +1,8 @@
 body {
-background-image: url("images/tmnthd.jpg");
+background-image: url("images/bg.jpg");
 background-repeat: no-repeat;
-background-position: center;
-background-size: auto;
-background-color: black;
-height: 1000px;
-
+background-size: cover;
+background-attachment: fixed;
 }
 
 header{
@@ -15,6 +12,13 @@ text-align: center;
 background-color:black;
 color :cyan;
 border: 5px red solid;
+margin: 5px;
+}
+
+h1{
+background-color: lightblue; 
+border: solid 3px;
+text-align: center;
 }
 
 h4{
@@ -37,7 +41,6 @@ p  {
 font-size:15px; 
 font-family:arial white, Helvetica, sans-serif;
  font-weight:bolder;
-font-style:oblique;
 line-height:18px;
 color: black;
 }
@@ -59,10 +62,4 @@ button{
 	margin-left: 150px; 
 	margin-top: -200px;
 	padding-right: 800px;
-
-
 }
-
-
-
-
